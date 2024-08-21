@@ -1,0 +1,84 @@
+.card-portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.card-portfolio {
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.1);
+    max-width: 18rem;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+/* .card-portfolio:hover {
+    transform: translateY(-1rem);
+    transition: 1s;
+} */
+
+/* .card-portfolio:hover::after {
+    content: "";
+    position: absolute;
+    background-color: #777;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.1rem;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+    transition: 1s;
+} */
+
+
+.card-portfolio-img {
+    width: 100%;
+    height: 10rem;
+    background-size: contain;
+}
+
+.card-portfolio:nth-child(1) .card-portfolio-img {
+    background-image: url(/assets/imgs/pedra_papel_tesoura.gif);
+}
+.card-portfolio:nth-child(2) .card-portfolio-img {
+    background-image: url(/assets/imgs/preview-plant.gif);
+}
+.card-portfolio:nth-child(3) .card-portfolio-img {
+    background-image: url(/assets/imgs/panta-rhei-page1.gif);
+}
+.card-portfolio:nth-child(4) .card-portfolio-img {
+    background-image: url(/assets/imgs/nebula-nest.gif);
+}
+
+.card-portfolio-content {
+    padding: 1.5rem 1.5rem 2rem 1.5rem;
+}
+
+.card-title {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.card-text {
+    font-size: 1em;
+    color: #777;
+    margin-bottom: 2rem;
+}
+
+.card-button {
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+
+.card-button:hover {
+    background-color: #0056b3;
+    transition: 0.3s;
+}
