@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: space-around;
     gap: 2rem;
+    margin-bottom: 5rem;
 }
 
 .card-portfolio {
@@ -81,4 +82,122 @@
 .card-button:hover {
     background-color: #0056b3;
     transition: 0.3s;
+}
+
+/* Container Principal */
+.staks-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilos para a seção Stacks */
+.stack-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1rem 0;
+}
+
+.stack-item {
+    max-width: 3rem;
+    padding: 0.75rem;
+    background-color: #f8f9fa;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stack-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.stack-item img {
+    width: 70%;
+    transition: transform 0.3s ease;
+}
+
+.stack-item img:hover {
+    transform: scale(1.1);
+}
+
+/* Estilos para a seção de Social Links */
+.social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.social-links a {
+    color: #333;
+    text-decoration: none;
+    width: 100%;
+    max-width: 300px;
+}
+
+.social-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 1.5rem;
+    background-color: #ffffff;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.social-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.social-card img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.social-card h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.social-card p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Estilos para telas maiores */
+@media (min-width: 768px) {
+    .staks-container {
+        grid-template-columns: 2fr 1fr;
+        gap: 2rem;
+        padding: 2rem;
+    }
+
+    .stack-item {
+        max-width: 4rem;
+        padding: 1rem;
+    }
+
+    .stack-item img {
+        width: 80%;
+    }
+
+    .stack-list {
+        justify-content: flex-start;
+    }
+
+    .social-links {
+        margin-top: 1rem;
+    }
 }

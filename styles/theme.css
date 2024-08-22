@@ -76,7 +76,8 @@ header {
 }
 
 .container {
-    margin: 5rem 3rem;
+    margin: 0 3rem;
+    margin-bottom: 6rem;
 }
 
 @media (min-width: 720px) { 

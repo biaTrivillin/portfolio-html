@@ -41,32 +41,6 @@
     margin-bottom: 0.5rem;
 }
 
-.stack-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    gap: 2rem;
-}
-
-.stack-item {
-    max-width: 5rem;
-    padding: 1rem;
-    background-color: #fff;
-    border-radius: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.stack-item img{
-    width: 80%;
-}
-
-.stack-item img:hover {
-    transform: scale(1.1);
-    transition: 0.5s;
-}
-
 
 
 .card {
