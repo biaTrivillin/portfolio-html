@@ -25,16 +25,16 @@
 }
 
 .card-portfolio:nth-child(1) .card-portfolio-img {
-    background-image: url(assets/imgs/pedra_papel_tesoura.gif);
+    background-image: url(../assets/imgs/pedra_papel_tesoura.gif);
 }
 .card-portfolio:nth-child(2) .card-portfolio-img {
-    background-image: url(assets/imgs/preview-plant.gif);
+    background-image: url(../assets/imgs/preview-plant.gif);
 }
 .card-portfolio:nth-child(3) .card-portfolio-img {
-    background-image: url(assets/imgs/panta-rhei-page1.gif);
+    background-image: url(../assets/imgs/panta-rhei-page1.gif);
 }
 .card-portfolio:nth-child(4) .card-portfolio-img {
-    background-image: url(assets/imgs/nebula-nest.gif);
+    background-image: url(../assets/imgs/nebula-nest.gif);
 }
 
 .card-portfolio-content {
